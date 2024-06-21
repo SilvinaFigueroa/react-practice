@@ -1,0 +1,99 @@
+
+html{
+    border-left: 5px solid lightgray;
+
+}
+body{
+    font-family: 'Gill Sans MT', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+#main-title{
+    color: tomato;
+    font-weight: normal; 
+    font-size: 50px; 
+}
+
+.top-menu ul{
+    display: flex;
+    padding: 0;    
+}
+
+.top-menu li{
+    padding: 10px;
+    list-style-type: none;
+}
+
+.top-menu a{
+    color:lightgrey;
+    font-size: 20px;
+}
+
+time{
+    font-weight: normal;
+    font-size: 30px; 
+    color:grey;
+    font-weight: lighter;
+}
+
+.blog h2{
+
+    font-weight: normal;
+    font-size: 40px; 
+    font-weight: lighter;
+
+}
+
+.continues{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    color: tomato;
+}
+
+.bottom-menu ul{
+    display: flex;
+    padding: 0;
+}
+
+.bottom-menu li{
+    padding: 10px;
+    list-style-type: none;
+
+}
+
+.bottom-menu a{
+    justify-content: space-between;
+    color:tomato;
+    font-size: 20px;
+}
+
+header main footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+img{
+    width: 100%;
+}
+
+article{
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+article p::first-letter{
+    font-size: 4rem; 
+    font-weight: bold;
+    color: lightgray;
+    float: left;
+}
