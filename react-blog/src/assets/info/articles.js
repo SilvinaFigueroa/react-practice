@@ -1,5 +1,5 @@
-import image1 from '../assets/images/blog-image-1.jpg';
-import image2 from '../assets/images/blog-image-2.jpg';
+import image1 from '../images/blog-image-1.jpg';
+import image2 from '../images/blog-image-2.jpg';
 
 let articleInfo = [{
     datetime: "2020/12/11",
