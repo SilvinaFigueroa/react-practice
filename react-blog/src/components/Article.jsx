@@ -1,5 +1,6 @@
 
 
+
 export default function Article({ info }) {
     return (
         <div>
