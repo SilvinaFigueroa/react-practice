@@ -1,5 +1,5 @@
 
-import bottomNav from '../assets/data/bottom-nav';  
+import bottomNav from '../assets/info/bottom-nav';  
 
 export default function Navigation({ info }) {
     return (
