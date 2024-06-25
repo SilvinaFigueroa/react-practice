@@ -1,27 +1,29 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/header'
-import Navigation from './components/navigation'
-import Article from './components/article'
-
-
-let articleInfo = [{
-
-  
-
-}]
+// Import Components 
+import Header from './components/Header.jsx'
+import Navigation from './components/Navigation.jsx'
+import Article from './components/Article.jsx'
+// Import props (dynamic data)
+import articleInfo from './assets/Data/articles.js'
+import header from './assets/Data/header.js'
+import topNav from './assets/Data/top-nav.js'
+import bottomNav from './assets/Data/bottom-nav.js'
 
 
 function App() {
   return (
-<div>
+    <div>
+      <Header info={header} />
+      <Navigation info={topNav} />
+      
+      {articleInfo.map((article, index) => (
+        <Article key={index} info={article} />
+      ))}
 
-    <Header />
-    <Navigation/>
-    {/* <Article  {articleInfo.map((article, index) => (
-        <Article key={index} info={article} />/> */}
-
-</div>
-)}
+      <Navigation info={bottomNav} />
+    </div>
+  )
+}
 
 export default App
